@@ -1,0 +1,27 @@
+<!--
+    Testi di default (italiano).
+    La versione inglese è in resources-eng/strings/strings.xml.
+-->
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="AppName">StressGuard</string>
+
+    <!-- Schermata principale -->
+    <string id="MainLabel">stress medio</string>
+    <string id="MainWindow">ultimi $1$ min</string>
+    <string id="NoData">nessun dato</string>
+    <string id="DebugBadge">DEBUG</string>
+    <string id="DebugOn">Debug attivo</string>
+    <string id="DebugOff">Debug disattivo</string>
+
+    <!-- Pop-up di avviso. scope="background": il servizio in background la usa
+         come messaggio di Background.requestApplicationWake(). -->
+    <string id="AlertMessage" scope="background">Stai calmo, livello stress in aumento</string>
+    <string id="AlertHint">premi un tasto</string>
+
+    <!-- Impostazioni modificabili da Garmin Connect -->
+    <string id="SettingThresholdTitle">Soglia di stress (1-100)</string>
+    <string id="SettingWindowTitle">Minuti per la media</string>
+    <string id="SettingQuietTitle">Silenzio tra avvisi (minuti)</string>
+    <string id="SettingMessageTitle">Messaggio del pop-up</string>
+    <string id="SettingDebugTitle">Modalità debug (valori simulati)</string>
+</resources>

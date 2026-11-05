@@ -1,0 +1,23 @@
+<!--
+    Valori di default delle impostazioni di StressGuard.
+    Sono letti con Application.Properties.getValue(), anche dal servizio
+    in background, e si modificano da Garmin Connect (vedi settings.xml).
+-->
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <properties>
+        <!-- Soglia oltre la quale la media dello stress fa scattare l'avviso (0-100) -->
+        <property id="StressThreshold" type="number">70</property>
+
+        <!-- Finestra, in minuti, su cui si calcola la media dello stress -->
+        <property id="WindowMinutes" type="number">10</property>
+
+        <!-- Minuti di silenzio dopo un avviso, per non ripetere il pop-up -->
+        <property id="QuietMinutes" type="number">30</property>
+
+        <!-- Messaggio personalizzato: se vuoto si usa il testo di default tradotto -->
+        <property id="AlertMessage" type="string">Respira con calma</property>
+
+        <!-- Modalità debug: sostituisce i dati reali con valori di stress crescenti -->
+        <property id="DebugMode" type="boolean">false</property>
+    </properties>
+</resources>

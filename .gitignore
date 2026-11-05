@@ -1,0 +1,21 @@
+# Output di compilazione Connect IQ
+bin/
+gen/
+*.prg
+*.prg.debug.xml
+*.iq
+mir/
+internal-mir/
+external-mir/
+
+# Developer key: NON deve mai finire nel repository
+*.der
+*.pem
+developer_key*
+
+# Editor / sistema
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

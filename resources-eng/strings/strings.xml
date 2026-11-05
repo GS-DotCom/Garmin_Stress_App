@@ -1,0 +1,26 @@
+<!--
+    Testi in inglese: sostituiscono quelli di resources/strings/strings.xml
+    quando la lingua dell'orologio è l'inglese.
+-->
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <string id="AppName">StressGuard</string>
+
+    <!-- Main screen -->
+    <string id="MainLabel">avg stress</string>
+    <string id="MainWindow">last $1$ min</string>
+    <string id="NoData">no data</string>
+    <string id="DebugBadge">DEBUG</string>
+    <string id="DebugOn">Debug on</string>
+    <string id="DebugOff">Debug off</string>
+
+    <!-- Alert pop-up -->
+    <string id="AlertMessage" scope="background">Stay calm, your stress level is rising</string>
+    <string id="AlertHint">press any key</string>
+
+    <!-- Settings (Garmin Connect) -->
+    <string id="SettingThresholdTitle">Stress threshold (1-100)</string>
+    <string id="SettingWindowTitle">Minutes for the average</string>
+    <string id="SettingQuietTitle">Quiet time between alerts (minutes)</string>
+    <string id="SettingMessageTitle">Pop-up message</string>
+    <string id="SettingDebugTitle">Debug mode (simulated values)</string>
+</resources>

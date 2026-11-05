@@ -1,0 +1,6 @@
+# Configurazione di build di StressGuard.
+# Si usano i percorsi di default del compilatore:
+#   source/          -> codice Monkey C
+#   resources/       -> risorse di default (italiano)
+#   resources-eng/   -> testi usati quando l'orologio è impostato in inglese
+project.manifest = manifest.xml

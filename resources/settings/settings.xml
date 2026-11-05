@@ -1,0 +1,28 @@
+<!--
+    Impostazioni mostrate nell'app Garmin Connect (e nel simulatore:
+    File > Edit Persistent Storage > Edit Application.Properties data).
+    Ogni voce modifica una property definita in properties.xml.
+-->
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <settings>
+        <setting propertyKey="@Properties.StressThreshold" title="@Strings.SettingThresholdTitle">
+            <settingConfig type="numeric" min="1" max="100" />
+        </setting>
+
+        <setting propertyKey="@Properties.WindowMinutes" title="@Strings.SettingWindowTitle">
+            <settingConfig type="numeric" min="5" max="60" />
+        </setting>
+
+        <setting propertyKey="@Properties.QuietMinutes" title="@Strings.SettingQuietTitle">
+            <settingConfig type="numeric" min="0" max="240" />
+        </setting>
+
+        <setting propertyKey="@Properties.AlertMessage" title="@Strings.SettingMessageTitle">
+            <settingConfig type="alphaNumeric" maxLength="100" />
+        </setting>
+
+        <setting propertyKey="@Properties.DebugMode" title="@Strings.SettingDebugTitle">
+            <settingConfig type="boolean" />
+        </setting>
+    </settings>
+</resources>
